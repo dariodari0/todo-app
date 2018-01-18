@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Abel');
+body {
+    background: #16A085;
+    background: -webkit-linear-gradient(to right, #F4D03F, #16A085);
+    background: linear-gradient(to right, #F4D03F, #16A085);
+    font-family: 'Abel', sans-serif;
+    text-align: center;
+    padding: 10%;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header h1 span {
+    text-decoration: line-through;
+    color: #009933;
+}
+
+header h2 {
+    color: #EEE;
+}
+
+.form {
+    width: 80%;
+    margin: 5% auto 2%;
+}
+
+#todoInput {
+    width: 100%;
+    height: 50px;
+    background: none;
+    border: none;
+    border-bottom: .3px solid #A7A9AB;
+    outline: none;
+    font: 300 2.5rem 'Abel', sans-serif;
+    padding: 10px;
+}
+
+.list {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.task {
+    width: 100%;
+    height: 6%;
+    padding: 20px;
+    font-size: 20px;
+    color: #FDF7E7;
+    transition: all .3s ease;
+}
+
+.task:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.task:hover span {
+    opacity: 1;
+}
+
+.done {
+    text-decoration: line-through;
+    color: #009933;
+}
+
+li span {
+    float: right;
+    color: #EA3838;
+    transition: all .3s;
+    opacity: 0;
+}
+
+li span:hover {
+    color: #BD0000;
+}
